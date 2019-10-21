@@ -9,4 +9,6 @@ const person = {
   age: 29,
 };
 
-const copyOfTodd = { ...person };
+const copyOfTodd = { ...person, gender: 'male' };
+
+console.log(copyOfTodd);
